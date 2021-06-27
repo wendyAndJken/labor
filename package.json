@@ -76,9 +76,6 @@
     "> 1%",
     "last 2 versions"
   ],
-  "bugs": {
-    "url": "https://github.com/PanJiaChen/vue-element-admin/issues"
-  },
   "engines": {
     "node": ">=8.9",
     "npm": ">= 3.0.0"
@@ -95,14 +92,8 @@
   "license": "MIT",
   "lint-staged": {
     "src/**/*.{js,vue}": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "repository": {
     "type": "git",

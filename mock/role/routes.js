@@ -357,6 +357,18 @@ const asyncRoutes = [
       }
     ]
   },
+  {
+    path: '/girdCalendar',
+    component: 'layout/Layout',
+    children: [
+      {
+        path: 'index',
+        component: 'views/dashboard/index',
+        name: 'girdCalendar',
+        meta: { title: 'girdCalendar', icon: 'tab' }
+      }
+    ]
+  },
 
   {
     path: '/error',
